@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1 id="name" ></h1>
+  <h2 id="age"></h2>
+  <p id="byear"></p>
+
+  <script>
+    let iName = window.prompt("Enter your name");
+    document.getElementById("name").innerHTML = iName
+
+    if(iName == ""){
+      window.prompt("Name is required");
+    }
+    let iAge = window.prompt("Enter your age");
+    
+    document.getElementById("age"). innerHTML = iAge
+    
+    if(iAge == ""){
+      window.prompt("Age is required");
+    }
+    let cyear = 2022
+    let byear = cyear - iAge
+    
+   
+    document.getElementById("byear").innerHTML = byear
+
+    // display the name and age entered on the browser window using heading tag
+    // calculate the birth year of the user using the age they have provided and display it in a paragraph tag
+    // let the user enter a value in the input box before proceeding
+  </script>
+</body>
+</html>
