@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validation</title>
+</head>
+<body>
+  <script>
+    let eAge = 18
+    let aAge = 65
+    let iAge = window.prompt("Enter your age")
+    if(iAge >= eAge && iAge < aAge ) {
+      document.write("You are eligible to vote");
+    }
+    
+    else if(iAge < eAge ) {
+      document.write("You are not eligible to vote");
+    }
+
+    else if(iAge > aAge) {
+      document.write("You are not eligible to vote");
+    }
+    
+    else{
+      document.write("Incorrect input");
+    }
+
+
+  </script>
+
+  <!--write an application to indicate if a user is eligible to vote-->
+  <!--if a user is less than 18 he or she is not eligible to vote-->
+  <!--if the user age is greater than 65, the user is not eligible to vote-->
+</body>
+</html>

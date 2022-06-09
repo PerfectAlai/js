@@ -8,28 +8,38 @@
 </head>
 <body>
   <script>
-  //  document.write("ama; kofi; yaw, enam, eli")
+
+    window.alert("ama; kofi; yaw, enam, eli")
     let user = window.prompt("Enter your name")
+
+    while(user== ""){
+     user = window.prompt("Name Required")
+    }
+
+
     if (user=="ama"){
       document.write("You are in room 1")
     }
-    if (user=="kofi"){
+    else if (user=="kofi"){
       document.write("You are in room 2")
     }
   
-    if (user=="yaw"){
+    else if (user=="yaw"){
       document.write("You are in room 3")
     }
   
-    if (user=="enam"){
+    else if (user=="enam"){
       document.write("You are in room 4")
     }
 
-    if (user=="eli"){
+    else if (user=="eli"){
       document.write("You are in room 5")
-    }else(user != "ama", "kofi", "yaw", "enam", "eli");{
-      document.write("User not found or room not assigned")
+    } 
+    
+    else {
+      document.write("Room not assigned")
     }
+
     
 
   

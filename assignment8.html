@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RESTAURANT</title>
+</head>
+
+<body>
+
+  <script>
+    let item1 = "JOLLOF"
+    let ing1 = "Jollof ingredients: Rice, oil, blended spices: onion, ginger, garlic, black pepper, grains of selim etc , salt and special seasonings"
+
+    let item2 = "PLAIN RICE"
+    let ing2 = "Ingredients: Rice, oil, salt, blended spices, tomatoes, onions, garlic, ginger etc"
+
+    let item3 = "FRIED RICE"
+    let ing3 = "Rice,salt, soya sauce, vegetables, eggs, pepper(optional)"
+
+    let item4 = "FUFU"
+    let ing4 = "Ingredients: Cassava and plantain  SOUP: blended spices, tomatoes, pepper, seasonings, salt, chicken or fresh/smoked/dried fish"
+
+    let item5 = "BANKU"
+    let ing5 = "Ingredients: Corn and Cassava dough, salt, Fresh pepper, tomatoes,ginger, onion(optional) fish or meat"
+
+    window.alert("MENU: 1. JOLLOF, 2. PLAIN RICE, 3. FRIED RICE, 4. FUFU , 5. BANKU WITH (PEPPER, OKRO, FRESH FISH SOUP)");
+    let cFood = window.prompt("Please enter your choice of number. YOUR ORDER COMES WITH A FREE BOTTLE OF WATER, Thank You");
+
+    if(cFood == 1){
+      document.write(ing1);
+    }
+
+    else if(cFood == 2){
+      document.write(ing2);
+    }
+
+    else if (cFood == 3){
+      document.write(ing3);
+    }
+
+    else if(cFood == 4){
+      document.write(ing4);
+    }
+
+    else if(cFood == 5){
+      document.write(ing5);
+    }
+
+    else {
+     window.prompt("Kindly input the correct number or call 0555374728 for special orders. THANK YOU")
+    }
+
+
+
+
+  </script>
+</body>
+
+</html>
