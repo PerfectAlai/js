@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMI</title>
+</head>
+<body>
+<h1>Welcome to BMI calculator!!!</h1>
+<script>
+
+  let weight = window.prompt("Enter weight in kg")
+  while(weight == ""){
+   weight = window.prompt("Weight needed");
+  }
+
+  let height = window.prompt("Enter height in m")
+  while(height == ""){
+   height = window.prompt("Height needed");
+  }
+
+  let BMI = weight/(height)**2
+  if(BMI == 2){
+    document.write(" Your BMI is " + BMI + " You have a normal weight ");
+  }
+
+  else if (BMI < 2){
+    document.write(" Your BMI is " + BMI + " you are underweight ")
+  }
+
+  else if(BMI > 2 && BMI == 2.5){
+    document.write(" Your BMI is " + BMI + " you are over-weight ");
+  }
+
+
+  else{
+    document.write(" Your BMI is " + BMI + " you are obese ");
+  }
+
+</script>
+</body>
+</html>
