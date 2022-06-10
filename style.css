@@ -1,0 +1,31 @@
+body{
+  background: url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80") no-repeat center center/cover; 
+}
+h1{
+  color: aqua;
+  text-align: center;
+  font-size: 40px;
+  font-style: italic;
+}
+
+p{
+  color: rgb(237, 192, 107);
+  font-size: 30px;
+}
+
+.menu{
+  color: rgb(38, 209, 215);
+  font-size: 35px;
+  text-align: center;
+  font-style: italic;
+}
+
+h2{
+  color: black;
+}
+
+.group{
+  background-color: aqua;
+
+}
+
